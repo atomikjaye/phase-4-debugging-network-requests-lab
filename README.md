@@ -62,7 +62,10 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: 
+    1. I tried to create a toy, got a 500 error, uninitialized constant ToysController
+    2. I looked within the ToysController files, I found the "Toy" controller pluralized. Removed "s".
+    3. Toy is created.
 
 - Update the number of likes for a toy
 
