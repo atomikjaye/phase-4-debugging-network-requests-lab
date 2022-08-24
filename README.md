@@ -77,3 +77,6 @@ developing your own process.
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  1. Clicked >> No route matches [DELETE]
+  2. Checked controller to see if destroy was there.. was
+  3. Checked routes.rb... found destroy not included in array. I added it
