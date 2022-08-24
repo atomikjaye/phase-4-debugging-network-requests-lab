@@ -70,6 +70,9 @@ developing your own process.
 - Update the number of likes for a toy
 
   - How I debugged:
+  1. Clicked link to add like >> Goes to Unhandled Rejection.. unexpected end of JSON input (after reading I presume it's a promise problem? Not returning JSON)
+  2. Found "Unpermitted parameter: :id" in console instead. added :id to permit params
+  3. Turns out it was just missing the render json: code... I removed :id from params.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
